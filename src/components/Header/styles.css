@@ -4,6 +4,7 @@
     height: 70px;    
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .ct-header h1{
