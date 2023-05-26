@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-  --ct-color-bg-primary: #FFF;
+  --ct-color-bg-primary: #D9D9D9;
   --ct-color-bg-secondary: #3C9AF0;
   --ct-color-bg-tertiary: #C8C8C8;
 
   --ct-color-font-primary: #FFF;
   --ct-color-font-secondary: #5E5E5E;
   --ct-color-font-tertiary: #3C9AF0;
+
+  --ct-color-decoration: #3C9AF0;
 }
 
 * {
@@ -24,7 +26,6 @@ a:hover {
 }
 
 .ct-container{
-  width: 100%;
   max-width: 960px;
   padding: 20px;
   margin:0 auto;

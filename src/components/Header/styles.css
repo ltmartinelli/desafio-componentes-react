@@ -10,3 +10,9 @@
     text-align: center;
     font-size: 20px;
 }
+
+@media (min-width: 576px){
+    .ct-header h1{
+        font-size: 24px;
+    }
+}
