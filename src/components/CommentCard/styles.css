@@ -1,0 +1,22 @@
+.comment-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 20px;
+    width: 100%;
+    max-width: 960px;
+    border-radius: 10px;
+    border: 1px solid var(--ct-color-decoration);
+    background-color: var(--ct-color-bg-primary);
+}
+
+.comment-card p {
+    color: var(--ct-color-font-tertiary);
+    font-size: 16px;
+}
+
+@media(min-width:576px) {
+    .comment-card p {
+        font-size: 20px;
+    }
+}

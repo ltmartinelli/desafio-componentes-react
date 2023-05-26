@@ -12,14 +12,27 @@
     font-size: 20px;
 }
 
-.comments-section {
+#comments-section {
     background-color: var(--ct-color-bg-tertiary);
+    color: var(--ct-color-font-secondary);
     display: flex;
     align-items: center;
     flex-direction: column;
     padding-bottom: 20px;
 }
 
+#comments-section h2 {
+    margin: 25px 0;
+    font-size: 20px;
+}
+
+.comment-cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+}
 
 .car-cards-container {
     display: flex;
@@ -31,6 +44,10 @@
 
 @media (min-width: 576px){
     #cars-section h2 {
+        font-size: 32px;
+    }
+
+    #comments-section h2 {
         font-size: 32px;
     }
 }
